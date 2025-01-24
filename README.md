@@ -1,4 +1,5 @@
-# Documentação de tudo que utilizei para a produção do meu site.
+
+# Documentation of Everything Used for My Website / Documentação de tudo que utilizei para a produção do meu site (Portuguese/English)
 
 ## Descrição geral
     Este Arquivo apresenta a descrição de um resumo pessoal, dos meus estudos que utilizaei para consultar e desenvolver os sites e os elementos que constam nesse repositório. É mais um resumo de fácil Acesso. Espero que você também possa tirar proveito disso, sinta-se livre pra consultar esse Readme sempre que precisar entender alguma função usada. 
@@ -16,7 +17,7 @@ A caracterização CSS nesse formato é dado pelo categorizador "style, dentro d
 O aprâmetro **color: cor_em_inges**, dentro do parâmetro **style=""** define a cor do parágrafo
 Perceba qu epodemos mudar a cor a vontade desntro deste parâmetro, mas dentro da tag de cada parágrafo.
 
-#### **2. Formatação CSS INTERNO com seletores**
+#### **1.2 Formatação CSS INTERNO com seletores**
 - Esta formatação, é inserida dentro da tag de Head e é utilziada para manipular seletores para formatar varias tags HTML de uma vez
 ```html
     <head>
@@ -175,5 +176,120 @@ Assim, tudo que ficar dentro dos containers **div**, da classe .texto, ficara co
 <head>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
-```html
+```
 O link no href deve conter as subpastas, se houver.
+
+
+# ENGLISH
+## **Formatting Types:**
+
+### **1. Inline Style Formatting**
+- This formatting is applied directly inside the tag of each paragraph.
+#### **1.1 Color Classification**
+```html
+<p style="color: green"> Paragraph </p>
+```
+CSS styling in this format is defined by the "style" attribute inside the paragraph tag. The parameter **color: color_in_English**, inside the **style=""** attribute, sets the color of the paragraph. You can change the color freely within this parameter, but it applies only to that specific paragraph tag.
+
+### **1.2 Internal CSS with Selectors**
+- This formatting is inserted into the `<head>` tag and is used to manipulate selectors for formatting multiple HTML tags at once.
+```html
+<head>
+    <style>
+        p {color: red;} 
+        h1 {color: blue;} 
+    </style>
+</head>
+```
+
+## **2. Classes and IDs**
+- **What are IDs?** IDs identify unique elements, much like a unique identification number.
+- **What are Classes?** Classes group elements together for collective styling.
+```html
+<head>
+    <style>
+        p {color: red;} 
+        .blue {color: blue;}
+        #main {background: gray;}
+        .product {background: lightyellow; margin: 10px;}
+    </style>
+</head>
+```
+IDs are used for unique styling, while Classes are used for grouping similar elements. Use `#` for IDs and `.` for Classes.
+
+## **3. Div and Span Tags**
+- **Div** tags are used for grouping and separating sections of content.
+```html
+<body>
+    <div id="content">
+        <div class="product"> Product 1 </div>
+        <div class="product"> Product 2 </div>
+        <div class="product"> Product 3 </div>
+    </div>
+</body>
+```
+- **Span** tags are used for inline grouping.
+```html
+<body>
+    <span class="product"> Product 1 </span>
+    <span class="product"> Product 2 </span>
+    <span class="product"> Product 3 </span>
+</body>
+```
+
+## **4. Borders**
+- Borders can be applied to any CSS element.
+```html
+<head>
+    <style>
+        #content {border: 3px solid red;}
+    </style>
+</head>
+```
+You can customize border width, style, and color using properties like `border-width`, `border-style`, and `border-color`.
+
+## **5. Fonts and Colors**
+### **5.1 Colors**
+- Colors can be specified as names (e.g., "red", "blue") or as hexadecimal codes.
+- Example:
+```html
+<head>
+    <style>
+        .styled {color: #DA70D6; font-size: 30px;}
+    </style>
+</head>
+```
+
+### **5.2 Fonts**
+- Fonts are defined using the `font-family` property.
+```html
+<head>
+    <style>
+        .styled {font-family: "Palatino Linotype", Palatino, "Times New Roman", serif; font-size: 35px;}
+    </style>
+</head>
+```
+
+## **6. Backgrounds**
+- Backgrounds can be styled using `background-color` or `background-image`.
+```html
+<head>
+    <style>
+        .background {
+            background: yellow scroll center no-repeat url('images/example.png');
+        }
+    </style>
+</head>
+<body class="background"></body>
+```
+
+## **7. External CSS**
+- Save styles in a `.css` file and link it to your HTML document:
+```html
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+```
+This allows centralized style management for your project.
+
+Thanks For reading :D
