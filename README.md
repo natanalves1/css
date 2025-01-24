@@ -5,6 +5,9 @@
     Este Arquivo apresenta a descrição de um resumo pessoal, dos meus estudos que utilizaei para consultar e desenvolver os sites e os elementos que constam nesse repositório. É mais um resumo de fácil Acesso. Espero que você também possa tirar proveito disso, sinta-se livre pra consultar esse Readme sempre que precisar entender alguma função usada. 
     Geralmente costumo documentar as funções dentro do código também.
 
+## General Description
+This document provides a summary of my studies used to reference and develop websites and the elements in this repository. It is designed for quick and easy access. Feel free to consult this README whenever you need help understanding a feature. I usually document functions directly within the code as well.
+
 ## **Tipos de Formatação:**
 
 ### **1. Formatação Inline Style**
