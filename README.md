@@ -52,7 +52,7 @@ Perceba qu epodemos mudar a cor a vontade desntro deste parâmetro, mas dentro d
     <p class="azul"> Parágrafo </p>
     <p id="principal"> Parágrafo </p>
 ```
-## ** 4. Tags Div e Span
+## ** 4. Tags Div e Span**
 - As **div** são tags utilizadas para enquandrutar, separar e agrupar elementos facultamente dentro do seu site. Ou seja, separar o projeto por sessões, categorias ou até posicionamento. Elas auxilial na classificação, organização e efluidez do proejto.
 
 ```html
@@ -75,7 +75,7 @@ Perceba qu epodemos mudar a cor a vontade desntro deste parâmetro, mas dentro d
 </body>
 ```
 
-## **5. Bordas **
+## **5. Bordas**
 - Bordas de qualquer Elemento CSS
 ```html
 <head>
