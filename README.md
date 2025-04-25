@@ -1,5 +1,5 @@
 
-# Documentation of Everything Used for My Website / Documentação de tudo que utilizei para a produção do meu site (Portuguese/English)
+# Documentation of Basic Concepts about CSS use / Documentação de tudo que utilizei de conceitos basicos do CSS (Portuguese/English)
 
 ## Descrição geral
     Este Arquivo apresenta a descrição de um resumo pessoal, dos meus estudos que utilizaei para consultar e desenvolver os sites e os elementos que constam nesse repositório. É mais um resumo de fácil Acesso. Espero que você também possa tirar proveito disso, sinta-se livre pra consultar esse Readme sempre que precisar entender alguma função usada. 
